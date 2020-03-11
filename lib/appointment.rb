@@ -6,7 +6,7 @@ attr_accessor :doctor, :patient, :date
 
 def initialize(doctor, patient, date)
   @doctor = doctor
-  @patient = patient
+  @patient = patient #creates association 
   @date = date
   @@all << self
 end
